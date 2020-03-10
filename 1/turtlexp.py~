@@ -1,0 +1,9 @@
+from random import *
+from turtle import *
+
+shape("turtle")
+speed(3)
+pensize(4)
+while True:
+    color(random(), random(), random())
+    circle(randrange(-30, 30), randrange(100))
